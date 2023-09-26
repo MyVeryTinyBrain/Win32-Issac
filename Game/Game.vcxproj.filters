@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="코드">
+      <UniqueIdentifier>{b47786d8-92de-42c3-9ea7-4833341177df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\TestComponets">
+      <UniqueIdentifier>{34b74231-9b29-4038-8d18-cb2a101deaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Main">
+      <UniqueIdentifier>{5f579ec7-39c6-4938-9f58-814465163c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\stdafx">
+      <UniqueIdentifier>{bfa40fec-3aca-4672-b10a-bbdb417b1bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Class">
+      <UniqueIdentifier>{ed2091a8-6915-4b7f-aa62-ec6b552271c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component">
+      <UniqueIdentifier>{9e5a8a39-bce7-4ff0-b177-d1d2d8e05b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Player">
+      <UniqueIdentifier>{01afd150-fc04-4885-996a-5328093f45af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Door">
+      <UniqueIdentifier>{129bbfdb-5728-4258-847e-2d081f76f50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Camerawork">
+      <UniqueIdentifier>{222f103e-9eea-4c87-a3d8-b06e26904230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Room">
+      <UniqueIdentifier>{7d5eab3d-da23-4ce9-86da-4001e5be802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster">
+      <UniqueIdentifier>{1efa6c44-6d53-4181-9d61-75d54b99c5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Projectile">
+      <UniqueIdentifier>{2a34c40c-b5ed-49d7-9408-c83ec5d2f5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\BlackFly">
+      <UniqueIdentifier>{692f1b7e-8fab-4329-804a-eb6aa7841155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\RedFly">
+      <UniqueIdentifier>{a29b0e3a-0e14-4490-b68a-b5fe3a8151b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Bomb">
+      <UniqueIdentifier>{2157b284-abbc-4b69-a16c-38d190898747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\ClosedGaper">
+      <UniqueIdentifier>{f14a9be1-4c41-441d-9462-ccd06e2369e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect">
+      <UniqueIdentifier>{06e1da5e-a95c-4efd-84b5-7000d79f34fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\RoomObstacle">
+      <UniqueIdentifier>{cfd74f7e-3a8e-4d91-b2c1-299abcd871dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\RoomObstacle\BrownRock">
+      <UniqueIdentifier>{88694045-bfef-46a4-a5aa-529fd223d26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\RoomObstacle\IronBlock">
+      <UniqueIdentifier>{c85865b6-9357-4ffd-84d4-39161386c29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\Muliboom">
+      <UniqueIdentifier>{399c09aa-ca4b-484f-bec9-97404dfff2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\BabyMonster">
+      <UniqueIdentifier>{6f3bac90-30b8-40bb-a1a4-7da39e09a8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect\Animator">
+      <UniqueIdentifier>{c1b981a9-d264-4a26-96d0-0ebe09e32f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect\Animator\Poof">
+      <UniqueIdentifier>{49bb057b-7b7f-4da2-8514-8977153fd842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect\Animator\BloodPoof">
+      <UniqueIdentifier>{db96c9a1-84a0-4a3e-9901-b935d0f7045f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect\Target">
+      <UniqueIdentifier>{65192fe4-9b8d-4992-8e27-fb0b96433ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\UI">
+      <UniqueIdentifier>{52d9a775-1380-4bd7-aa57-1bb62b119711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\BabyPlum">
+      <UniqueIdentifier>{6ddcdb60-3512-4d2e-9443-abc14e48acd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\UI\UIHealthBar">
+      <UniqueIdentifier>{07ad819b-d81f-408f-bb41-3aab0f08073d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\UI\UIHeart">
+      <UniqueIdentifier>{5ab41d61-399f-4065-aa06-7a65c9d6fb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Item">
+      <UniqueIdentifier>{b472af6c-7434-43aa-9d66-7919e604a1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\UI\UICollectibles">
+      <UniqueIdentifier>{674b7400-ef21-4bf3-b3a5-cea1d776c389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Monster\UnknownBoss">
+      <UniqueIdentifier>{e1325cbf-1c41-4dd9-8821-4e24889e44af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Effect\Pool">
+      <UniqueIdentifier>{ff03c671-2c3b-4f2f-947d-62ce054d3320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\Brimston">
+      <UniqueIdentifier>{cc1f65fb-15b9-4ea2-945e-02739ec9d24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\RoomObstacle\BlueRock">
+      <UniqueIdentifier>{0a274b54-93e0-4011-851d-60c1cd88a91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\RoomObstacle\Bowl">
+      <UniqueIdentifier>{28766766-ba49-418a-a42c-10fff84214c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\EuqipItem">
+      <UniqueIdentifier>{398b8505-685e-4f0b-9b43-f362665250dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Component\EuqipItem\EquipItem">
+      <UniqueIdentifier>{95c1706e-fdf6-4e83-a45e-6989ccfdbb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Sound">
+      <UniqueIdentifier>{00f8af9f-e93e-4660-b525-2c3b898b3df9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>코드\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>코드\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>코드\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>코드\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>코드\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>코드\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="Resizer.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="Spinner.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="TestReferencingComponent.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRemover.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAnimator.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseTracker.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>코드\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Body2DController.h">
+      <Filter>코드\TestComponets</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRenderTag.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRenderOrder.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>코드\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>코드\Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBodyAnimator.h">
+      <Filter>코드\Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHeadAnimator.h">
+      <Filter>코드\Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>코드\Component\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAnimator.h">
+      <Filter>코드\Component\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameObjectTag.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameObjectLayer.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorPoppingAnimator.h">
+      <Filter>코드\Component\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="SideDoorAnimator.h">
+      <Filter>코드\Component\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Camerawork.h">
+      <Filter>코드\Component\Camerawork</Filter>
+    </ClInclude>
+    <ClInclude Include="Room1x1.h">
+      <Filter>코드\Component\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>코드\Component\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>코드\Component\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>코드\Component\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileAnimator.h">
+      <Filter>코드\Component\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackFly.h">
+      <Filter>코드\Component\Monster\BlackFly</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackFlyAnimator.h">
+      <Filter>코드\Component\Monster\BlackFly</Filter>
+    </ClInclude>
+    <ClInclude Include="RedFlyAnimator.h">
+      <Filter>코드\Component\Monster\RedFly</Filter>
+    </ClInclude>
+    <ClInclude Include="RedFly.h">
+      <Filter>코드\Component\Monster\RedFly</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>코드\Component\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>코드\Component\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosedGaper.h">
+      <Filter>코드\Component\Monster\ClosedGaper</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallBloodPoofAnimator.h">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularBloodPoofAnimator.h">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeBloodPoofAnimator.h">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomObstacle.h">
+      <Filter>코드\Component\RoomObstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="BrownRock01.h">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClInclude>
+    <ClInclude Include="BrownBombRock.h">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClInclude>
+    <ClInclude Include="BrownRock02.h">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClInclude>
+    <ClInclude Include="BrownRock03.h">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClInclude>
+    <ClInclude Include="IronBlock.h">
+      <Filter>코드\Component\RoomObstacle\IronBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallPoofAnimator.h">
+      <Filter>코드\Component\Effect\Animator\Poof</Filter>
+    </ClInclude>
+    <ClInclude Include="Muliboom.h">
+      <Filter>코드\Component\Monster\Muliboom</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyMonster.h">
+      <Filter>코드\Component\Monster\BabyMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyMonsterAnimator.h">
+      <Filter>코드\Component\Monster\BabyMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetEffect.h">
+      <Filter>코드\Component\Effect\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHealthBar.h">
+      <Filter>코드\Component\UI\UIHealthBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExecutionOrder.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyPlum.h">
+      <Filter>코드\Component\Monster\BabyPlum</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyPlumAnimator.h">
+      <Filter>코드\Component\Monster\BabyPlum</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHeart.h">
+      <Filter>코드\Component\UI\UIHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="UICollectibles.h">
+      <Filter>코드\Component\UI\UICollectibles</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownBoss.h">
+      <Filter>코드\Component\Monster\UnknownBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownBossAnimator.h">
+      <Filter>코드\Component\Monster\UnknownBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool.h">
+      <Filter>코드\Component\Effect\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="BrimstonCorner.h">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClInclude>
+    <ClInclude Include="BrimstonBeam.h">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClInclude>
+    <ClInclude Include="Brimston.h">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClInclude>
+    <ClInclude Include="BrimstonHit.h">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBlueHeart.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBomb.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCoin.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemKey.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemRedHeart.h">
+      <Filter>코드\Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBowl.h">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBowl1.h">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBowl2.h">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueRock.h">
+      <Filter>코드\Component\RoomObstacle\BlueRock</Filter>
+    </ClInclude>
+    <ClInclude Include="CompGenerator.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Placer.h">
+      <Filter>코드\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemPlacer.h">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBox.h">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldBox.h">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTable.h">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItem.h">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemOnion.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemMomSheels.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemMomLipstick.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemMartyr.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemHeart.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemBrimston.h">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>코드\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>코드\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>코드\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="Resizer.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="Spinner.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="TestReferencingComponent.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRemover.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAnimator.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseTracker.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>코드\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Body2DController.cpp">
+      <Filter>코드\TestComponets</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>코드\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>코드\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>코드\Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBodyAnimator.cpp">
+      <Filter>코드\Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHeadAnimator.cpp">
+      <Filter>코드\Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>코드\Component\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAnimator.cpp">
+      <Filter>코드\Component\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorPoppingAnimator.cpp">
+      <Filter>코드\Component\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="SideDoorAnimator.cpp">
+      <Filter>코드\Component\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Camerawork.cpp">
+      <Filter>코드\Component\Camerawork</Filter>
+    </ClCompile>
+    <ClCompile Include="Room1x1.cpp">
+      <Filter>코드\Component\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>코드\Component\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>코드\Component\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>코드\Component\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileAnimator.cpp">
+      <Filter>코드\Component\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackFly.cpp">
+      <Filter>코드\Component\Monster\BlackFly</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackFlyAnimator.cpp">
+      <Filter>코드\Component\Monster\BlackFly</Filter>
+    </ClCompile>
+    <ClCompile Include="RedFly.cpp">
+      <Filter>코드\Component\Monster\RedFly</Filter>
+    </ClCompile>
+    <ClCompile Include="RedFlyAnimator.cpp">
+      <Filter>코드\Component\Monster\RedFly</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>코드\Component\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>코드\Component\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosedGaper.cpp">
+      <Filter>코드\Component\Monster\ClosedGaper</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallBloodPoofAnimator.cpp">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularBloodPoofAnimator.cpp">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeBloodPoofAnimator.cpp">
+      <Filter>코드\Component\Effect\Animator\BloodPoof</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomObstacle.cpp">
+      <Filter>코드\Component\RoomObstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="BrownRock01.cpp">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClCompile>
+    <ClCompile Include="BrownBombRock.cpp">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClCompile>
+    <ClCompile Include="BrownRock02.cpp">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClCompile>
+    <ClCompile Include="BrownRock03.cpp">
+      <Filter>코드\Component\RoomObstacle\BrownRock</Filter>
+    </ClCompile>
+    <ClCompile Include="IronBlock.cpp">
+      <Filter>코드\Component\RoomObstacle\IronBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallPoofAnimator.cpp">
+      <Filter>코드\Component\Effect\Animator\Poof</Filter>
+    </ClCompile>
+    <ClCompile Include="Muliboom.cpp">
+      <Filter>코드\Component\Monster\Muliboom</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyMonster.cpp">
+      <Filter>코드\Component\Monster\BabyMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyMonsterAnimator.cpp">
+      <Filter>코드\Component\Monster\BabyMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetEffect.cpp">
+      <Filter>코드\Component\Effect\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHealthBar.cpp">
+      <Filter>코드\Component\UI\UIHealthBar</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyPlum.cpp">
+      <Filter>코드\Component\Monster\BabyPlum</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyPlumAnimator.cpp">
+      <Filter>코드\Component\Monster\BabyPlum</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHeart.cpp">
+      <Filter>코드\Component\UI\UIHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="UICollectibles.cpp">
+      <Filter>코드\Component\UI\UICollectibles</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownBossAnimator.cpp">
+      <Filter>코드\Component\Monster\UnknownBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownBoss.cpp">
+      <Filter>코드\Component\Monster\UnknownBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Pool.cpp">
+      <Filter>코드\Component\Effect\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="Brimston.cpp">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClCompile>
+    <ClCompile Include="BrimstonBeam.cpp">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClCompile>
+    <ClCompile Include="BrimstonCorner.cpp">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClCompile>
+    <ClCompile Include="BrimstonHit.cpp">
+      <Filter>코드\Component\Brimston</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBlueHeart.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBomb.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCoin.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemKey.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemRedHeart.cpp">
+      <Filter>코드\Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBowl.cpp">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBowl2.cpp">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBowl1.cpp">
+      <Filter>코드\Component\RoomObstacle\Bowl</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueRock.cpp">
+      <Filter>코드\Component\RoomObstacle\BlueRock</Filter>
+    </ClCompile>
+    <ClCompile Include="CompGenerator.cpp">
+      <Filter>코드\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Placer.cpp">
+      <Filter>코드\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemPlacer.cpp">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBox.cpp">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldBox.cpp">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTable.cpp">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItem.cpp">
+      <Filter>코드\Component\EuqipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemBrimston.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemHeart.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemMartyr.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemMomLipstick.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemMomSheels.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemOnion.cpp">
+      <Filter>코드\Component\EuqipItem\EquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>코드\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib">
+      <Filter>리소스 파일</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodexL.dll">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="fmodex.dll">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

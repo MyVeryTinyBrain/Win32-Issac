@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="코드">
+      <UniqueIdentifier>{e728610b-e5ae-43f7-8e24-507c17c2529a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\WinAPIResources">
+      <UniqueIdentifier>{4018bf94-92c1-416a-b304-c167f78e97e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\BaseStdafx">
+      <UniqueIdentifier>{c9e0ebf4-b2cf-43dd-8b35-e5d27c777739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Core">
+      <UniqueIdentifier>{6c46439d-5d76-4476-af39-a9d675dee865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Delegate">
+      <UniqueIdentifier>{b797abe0-ea67-4ba7-a9c3-dd25cf2b7d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Math">
+      <UniqueIdentifier>{837fc888-0e99-4919-8ae1-c306a369e61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Physics2D">
+      <UniqueIdentifier>{dfc312dc-103a-479c-b19d-3724bebbee78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\WinAPIComponents">
+      <UniqueIdentifier>{e97daaac-c1a6-4341-9dd4-f743a1a4090d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Physics2D\Shape2D">
+      <UniqueIdentifier>{6b4ff5dd-df4d-4f78-b797-20d70676a53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Physics2D\Collider2D">
+      <UniqueIdentifier>{7305c1d5-fb0b-41d6-964c-e81fa5930334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\_TagsAndOrders">
+      <UniqueIdentifier>{87d726f1-0826-44be-8d05-a773ee2575d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드\Animation">
+      <UniqueIdentifier>{9226b522-7372-4ec1-afa8-6d0dfa24e4c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector3.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtility.h">
+      <Filter>코드\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="HDCEx.h">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStdafx.h">
+      <Filter>코드\BaseStdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>코드\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>코드\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionConvert.h">
+      <Filter>코드\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2D.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="LineRenderer.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapManager.h">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGlobal.h">
+      <Filter>코드\BaseStdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape2D.h">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle2D.h">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleRenderer.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCore.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWinAPIComponents.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWinAPIResources.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePhysics2D.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="Body2D.h">
+      <Filter>코드\Physics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect2D.h">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider2D.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider2D.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonCollider2D.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2DRenderer.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="RectRenderer.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics2D.h">
+      <Filter>코드\Physics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionOrder.h">
+      <Filter>코드\_TagsAndOrders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2DTag.h">
+      <Filter>코드\_TagsAndOrders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2DOrder.h">
+      <Filter>코드\_TagsAndOrders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTag.h">
+      <Filter>코드\_TagsAndOrders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectLayer.h">
+      <Filter>코드\_TagsAndOrders</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCollider2D.h">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>코드\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>코드\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>코드\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAnimation.h">
+      <Filter>코드</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>코드\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>코드\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>코드\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="HDCEx.cpp">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer2D.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="LineRenderer.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapManager.cpp">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGlobal.cpp">
+      <Filter>코드\BaseStdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape2D.cpp">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle2D.cpp">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleRenderer.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>코드</Filter>
+    </ClCompile>
+    <ClCompile Include="Body2D.cpp">
+      <Filter>코드\Physics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect2D.cpp">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider2D.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider2D.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCollider2D.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DRenderer.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="RectRenderer.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics2D.cpp">
+      <Filter>코드\Physics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>코드\Physics2D\Shape2D</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCollider2D.cpp">
+      <Filter>코드\Physics2D\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>코드\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>코드\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>코드\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>코드\WinAPIComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>코드\WinAPIResources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
